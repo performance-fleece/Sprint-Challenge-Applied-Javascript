@@ -65,5 +65,3 @@ class TabCard {
 
 */
 let tabs = document.querySelectorAll(".tab").forEach(tab => new TabLink(tab));
-let test = document.querySelectorAll('[data-tab="javascript"]')
-console.log(test);
